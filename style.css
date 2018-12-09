@@ -220,11 +220,12 @@ header .header-cases {
 .index-banner h2 {
      font-family: Black And White Picture;
     font-size: 60px;
-    color: #fff;
+    color: #e3dace;
+    
     font-weight: 900;
      line-height: 70px;
     text-align: center;
-    text-shadow: 2px 2px 8px #111;
+    text-shadow: 4px 4px 16px #111;
 }
 
 .index-banner h1 {
@@ -233,10 +234,10 @@ header .header-cases {
     font-weight: 100;
     font-style: italic;
     line-height: 40px;
-    color: #fff;
+    color: #e3dace ;
     font-weight: 900;
     text-align: center;
-    text-shadow: 2px 2px 8px #111;
+    text-shadow: 4px 4px 16px #111;
 }
 
 .index-links div {
@@ -250,7 +251,7 @@ header .header-cases {
     font-size: 28px;
     font-weight: 600;
     line-height: 100px;
-    color: #111;
+    color: #000;
     font-weight: 900;
     text-align: center;
     text-transform: uppercase;
