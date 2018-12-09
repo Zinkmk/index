@@ -165,7 +165,7 @@ header nav ul li a{
 header .header-cases {
     display: none;
 }
-
+/* I'd like to point out the @media tag helps the pages run on mobile devices*/
 @media only screen and (min-width: 1000px) {
   header .header-brand{
     margin: 31px 0;
@@ -237,7 +237,7 @@ header .header-cases {
     color: #e3dace ;
     font-weight: 900;
     text-align: center;
-    text-shadow: 4px 4px 16px #111;
+    text-shadow: 4px 4px 16px #111;/* shadows are here to help it contrast regardless of the background*/
 }
 
 .index-links div {
@@ -256,7 +256,7 @@ header .header-cases {
     text-align: center;
     text-transform: uppercase;
 }
-
+/* I'd like to point out the @media tag helps the pages run on mobile devices*/
 @media only screen and (min-width: 1000px) {
     .index-banner {
     height: 450px;
@@ -360,8 +360,30 @@ header .header-cases {
     text-transform: uppercase;
 }
 
+/*Portfolio styling area*/
 
+.wrapper h1 {
+     font-family: Robotic;
+    font-size: 28px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
+    color: #111 ;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 4px 4px 16px #111;
+}
+
+.wrapper h2 {
+    font-family: Robotic;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 40px;
+    color: #111 ;
+    font-weight: 450;
+    text-align: center;
     
+}
 
 /*Footer*/
 
@@ -400,7 +422,7 @@ footer ul li a{
     width: 100%;
     margin-bottom: 20px;
 }
-
+/* I'd like to point out the @media tag helps the pages run on mobile devices*/
 @media only screen and (min-width: 1000px) {
     .footer-links-cases {
         display: block
